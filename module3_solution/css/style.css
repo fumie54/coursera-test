@@ -1,0 +1,31 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #6dd8f2;
+	font-family: 'Oxygen', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+	background-color: #f50505;
+	border-radius: 0;
+	border: 0;
+	
+}
+.nabvar-brand h1{
+	font-family: 'Lora', serif;
+	color: #e1f505;
+	text-shadow: 1px 1px 1px #222;
+}
+.nabvar-brand a {
+	text-decoration: none;
+}
+.nabvar-brand a:hover, .nabvar-brand a:focus {
+	text-decoration: none;
+}
+#nav-list {
+	margin: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center}
+}
