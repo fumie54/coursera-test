@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body {
 	font-size: 16px;
 	color: #fff;
@@ -9,7 +11,9 @@ body {
 	background-color: #f50505;
 	border-radius: 0;
 	border: 0;
-	
+}
+.container-fluid {
+	position: relative;
 }
 .nabvar-brand h1{
 	font-family: 'Lora', serif;
@@ -32,5 +36,32 @@ body {
 }
 .navbar-toggler {
 	border: 1px solid #6dd8f2;
-	float: right;
+	
+}
+#nabvar-toggler-position {
+	border: 1px solid #6dd8f2;
+	position: absolute;
+	top: 0;
+	right:  2px;
+}
+
+.menu-style{
+	border: 5px solid #7fad13;
+	background-color:#dafa7a;
+	color: #020717;
+	padding: 5px 5px 5px 5px;
+	width: 98%;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px; 
+	}
+
+.menu-style h4 {
+	text-align: center;
+}
+#menu-title {
+    height: 50px;
+    color: #f50505;
+    line-height: 50px;
 }
